@@ -1,14 +1,15 @@
 ## Importing Library
-import os
-import random
+from os import listdir
+import hikari
 import sys
 sys.path.append('Modules/')
 from client import bot
 
 
-@bot.command()
-async def ping(ctx):
-    await ctx.respond(f"Pong! {bot.heartbeat_latency * 1_000:.0f}ms, Your ping {random.randint(0, 100)}")
-
+if __name__ == '__main__':
+    for plugin in listdir('plugins'):
+        if plugin.endswith('.py'):
+            plugin = f"plugins.{plugin.replace('.py', '')}"
+            bot.load_extension(plugin)
 
 bot.run()
