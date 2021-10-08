@@ -1,9 +1,15 @@
 # Ray-python
+- This bot using library Hikari-py
 
 ## Setup
 ```py
 pip3 install --no-cache-dir -r requirements.txt
 ```
+## Requirements
+- [Python](https://www.python.org/)
+- [Hikari](https://github.com/hikari-py/hikari/)
+- [Code Editor Optional](https://atom.io/)
+
 
 ## Running
 ```py
