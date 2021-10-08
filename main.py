@@ -3,8 +3,8 @@ from os import listdir
 import hikari
 import sys
 sys.path.append('Modules/')
-from client import bot
-
+from client import Ray
+bot = Ray()
 
 if __name__ == '__main__':
     for plugin in listdir('plugins'):
