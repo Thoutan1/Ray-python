@@ -30,7 +30,6 @@ class Core(Plugin):
     @command(aliases = ['logout'])
     async def shutdown(self, ctx):
         """Shut down the bot"""
-        await ctx.respond(embed = Utils.loading_embed())
         await ctx.message.add_reaction("👋")
         return await ctx.bot.close()
 
