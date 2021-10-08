@@ -7,9 +7,10 @@ from config import Config
 class Ray(Bot):
         def __init__(self):
 
-
           super().__init__(
             token=Config.TOKEN,
+            owner_ids=[776458781239410698],
+			insensitive_commands=True,
             prefix=Config.PREFIX,
             intents=Intents.ALL,
             logs={
