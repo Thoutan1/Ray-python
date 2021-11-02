@@ -6,4 +6,4 @@ hikari-lightbulb==1.5.0
 multidict==5.2.0
 pure25519==0.0.1
 typing-extensions==3.10.0.2
-yarl==1.7.0
+yarl==1.7.2
