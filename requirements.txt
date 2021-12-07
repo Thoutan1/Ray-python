@@ -2,7 +2,7 @@ aiohttp==3.7.4.post0
 async-timeout==3.0.1
 colorlog==6.5.0
 hikari==2.0.0.dev103
-hikari-lightbulb==1.5.0
+hikari-lightbulb==2.0.4
 multidict==5.2.0
 pure25519==0.0.1
 typing-extensions==3.10.0.2
